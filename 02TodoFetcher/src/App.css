@@ -1,0 +1,32 @@
+.parent {
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark gray text color */
+  width: 60%;
+  margin: auto;
+  margin-bottom: 0%;
+  text-align: center;
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add padding for spacing */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.heading {
+  background-color: #007bff; /* Blue heading background */
+  color: #fff; /* White text color */
+  padding: 10px 0; /* Add padding top and bottom */
+  margin-bottom: 20px; /* Add spacing below heading */
+}
+
+.userid {
+  color: #28a745; /* Green user ID color */
+  margin-bottom: 10px; /* Add spacing below user ID */
+}
+
+.todo {
+  background-color: #fff; /* White background for todo items */
+  color: #555; /* Dark gray text color */
+  padding: 10px; /* Add padding for spacing */
+  margin-bottom: 10px; /* Add spacing below each todo item */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}

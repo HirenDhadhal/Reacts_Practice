@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+.cell {
+  height: 100px;
+  font-size: 36px;
+  border: 2px solid #cccccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
